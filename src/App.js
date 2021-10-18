@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import { API } from 'aws-amplify';
@@ -7,20 +7,20 @@ import './App.css';
 const App = () => {
 
   // Create coins variable ans set to empty array
-  const [coins, updateCoins] = useState([])
+  const [coins, updateCoins] = useState([]);
 
   // Create additional state to hold user input for the limit and start properties
-  const [input, updateInput] = useState({ limit: 5, start: 0 })
+  const [input, updateInput] = useState({ limit: 5, start: 0 });
 
    // Create a variable for loading
    const [loading, updateLoading] = useState(true);
 
   // Create a new function to allow users to update the input values
   function updateInputValues(type, value) {
-    updateInput({ ...input, [type]: value })
+    updateInput({ ...input, [type]: value });
   }
 
-    // Define function to all API
+    // Define function to call API
     const fetchCoins = async() => {
       updateLoading(true);
       const { limit, start } = input;
