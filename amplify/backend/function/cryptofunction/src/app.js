@@ -61,6 +61,10 @@ app.get('/coins', function(req, res) {
   //   coins 
   // });
 
+  // -------------------------> PROJECT 3 WORK:
+  // Defining the base URL that my call will be made to 
+  let apiUrl = `https://api.github.com/users/tpetts`
+
 
 app.get('/item', function(req, res) {
   // Add your code here
