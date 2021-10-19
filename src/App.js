@@ -3,6 +3,7 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import { API } from 'aws-amplify';
 import './App.css';
+import { Birthdate } from './Birthdate';
 
 const App = () => {
 
@@ -12,8 +13,8 @@ const App = () => {
   // Create additional state to hold user input for the limit and start properties
   const [input, updateInput] = useState({ limit: 5, start: 0 });
 
-   // Create a variable for loading
-   const [loading, updateLoading] = useState(true);
+  // Create a variable for loading
+  const [loading, updateLoading] = useState(true);
 
   // Create a new function to allow users to update the input values
   function updateInputValues(type, value) {
@@ -35,6 +36,7 @@ const App = () => {
     }, [])
 
     return (
+      <>
       <div className="App">
 
         {/* Add input fields to the UI for user input */}
@@ -63,6 +65,9 @@ const App = () => {
           ))
         }
 
+        {/* PROJECT 3 DISPLAY REQUIREMENTS */}
+        < Birthdate />
+
 
         {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -79,6 +84,7 @@ const App = () => {
           </a>
         </header> */}
       </div>
+      </>
     );
 }
 
