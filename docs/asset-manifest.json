@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/amplify-react-app/static/css/main.5739ad41.chunk.css",
+    "main.js": "/amplify-react-app/static/js/main.e86d3db2.chunk.js",
+    "main.js.map": "/amplify-react-app/static/js/main.e86d3db2.chunk.js.map",
+    "runtime-main.js": "/amplify-react-app/static/js/runtime-main.6efa0e16.js",
+    "runtime-main.js.map": "/amplify-react-app/static/js/runtime-main.6efa0e16.js.map",
+    "static/js/2.e4d0fdc1.chunk.js": "/amplify-react-app/static/js/2.e4d0fdc1.chunk.js",
+    "static/js/2.e4d0fdc1.chunk.js.map": "/amplify-react-app/static/js/2.e4d0fdc1.chunk.js.map",
+    "static/js/3.07a2d093.chunk.js": "/amplify-react-app/static/js/3.07a2d093.chunk.js",
+    "static/js/3.07a2d093.chunk.js.map": "/amplify-react-app/static/js/3.07a2d093.chunk.js.map",
+    "index.html": "/amplify-react-app/index.html",
+    "static/css/main.5739ad41.chunk.css.map": "/amplify-react-app/static/css/main.5739ad41.chunk.css.map",
+    "static/js/2.e4d0fdc1.chunk.js.LICENSE.txt": "/amplify-react-app/static/js/2.e4d0fdc1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6efa0e16.js",
+    "static/js/2.e4d0fdc1.chunk.js",
+    "static/css/main.5739ad41.chunk.css",
+    "static/js/main.e86d3db2.chunk.js"
+  ]
+}
