@@ -31,7 +31,7 @@ app.use(function(req, res, next) {
  **********************/
 const axios = require('axios');
 
-app.get('/birthday', function(req, res) {
+app.get('/birthdate', function(req, res) {
   // Define base url
   let apiUrl = `https://api.github.com/users/tpetts`
 
