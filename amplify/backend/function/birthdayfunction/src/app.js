@@ -29,10 +29,21 @@ app.use(function(req, res, next) {
 /**********************
  * Example get method *
  **********************/
+const axios = require('axios');
 
-app.get('/item', function(req, res) {
-  // Add your code here
-  res.json({success: 'get call succeed!', url: req.url});
+app.get('/birthday', function(req, res) {
+  // Define base url
+  let apiUrl = `https://api.github.com/users/tpetts`
+
+  // Call api and return response
+  axios.get(apiUrl)
+    .then(response => {
+      res.json({ birthday: response.data })
+    })
+    .catch(err => res.json({ error: err}))
+
+
+  // res.json({success: 'get call succeed!', url: req.url});
 });
 
 app.get('/item/*', function(req, res) {
