@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 
-export const Birthdate = () => {
-
+export const Birthdate = (props) => {
+    const {user} = props;
   
     
     return(

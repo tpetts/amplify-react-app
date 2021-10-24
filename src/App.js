@@ -82,7 +82,7 @@ const App = () => {
         }
 
         {/* PROJECT 3 DISPLAY REQUIREMENTS */}
-        < Birthdate />
+        <Birthdate user={user} />
 
 
         {/* <header className="App-header">
