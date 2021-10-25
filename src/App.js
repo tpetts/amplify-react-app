@@ -39,17 +39,17 @@ const App = () => {
     // Create user variable and set to empty object
   const [user, setUser] = useState({});
 
-  // // Define function to call API
-  // const fetchBirthday = async() => {
-  //   const response = await axios.get('https://api.github.com/users/tpetts');
-  //   setUser(response.data);
+  // Define function to call API
+  const fetchBirthday = async() => {
+    const data = await API.get('cryptoapi', '/birthdate');
+    setUser(response.data);
     
-  // }
+  }
 
-  // // Call fetchCoins function when the component loads
-  // useEffect(() => {
-  //   fetchBirthday()
-  // }, [])
+  // Call fetchCoins function when the component loads
+  useEffect(() => {
+    fetchBirthday()
+  }, [])
 
     return (
       <>

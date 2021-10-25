@@ -19,7 +19,7 @@
         },
         "birthdayfunction": {
           "deploymentBucketName": "amplify-cryptoapp-local-201907-deployment",
-          "s3Key": "amplify-builds/birthdayfunction-4b3567334548544a686a-build.zip"
+          "s3Key": "amplify-builds/birthdayfunction-67417851444b65354a50-build.zip"
         }
       }
     }
