@@ -46,10 +46,10 @@ const App = () => {
     
   // }
 
-  // Call fetchCoins function when the component loads
-  useEffect(() => {
-    fetchBirthday()
-  }, [])
+  // // Call fetchCoins function when the component loads
+  // useEffect(() => {
+  //   fetchBirthday()
+  // }, [])
 
     return (
       <>

@@ -23,6 +23,14 @@
             "Name",
             "Arn"
           ]
+        },
+        {
+          "category": "function",
+          "resourceName": "birthdayfunction",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
         }
       ]
     }
