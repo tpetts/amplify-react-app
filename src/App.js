@@ -42,7 +42,7 @@ const App = () => {
   // Define function to call API
   const fetchBirthday = async() => {
     const data = await API.get('cryptoapi', '/birthdate');
-    setUser(data.data);
+    setUser(data.birthday);
   }
 
   // Call fetchBirthday function when the component loads
