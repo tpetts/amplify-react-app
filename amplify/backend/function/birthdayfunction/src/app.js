@@ -35,16 +35,12 @@ app.get('/birthdate', function(req, res) {
   // Define base url
   let apiUrl = `https://api.github.com/users/tpetts`
 
- 
 
-  if (req.apiGateway && req.apiGateway.event.queryStringParameters) {
      // Define function to call API
     const fetchBirthday = async() => {
       const response = await axios.get('https://api.github.com/users/tpetts');
       setUser(response.data);
-      
     }
-   }
 
   // Call api and return response
   axios.get(apiUrl)
