@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 
 
 export const Birthdate = (props) => {
-    const {birthday} = props;
+    const {user} = props;
   
     
     return(
         <>
 
-        <h2>The user {birthday.login} account was born on: {birthday.created_at}</h2>
+        <h2>The user {user.login} account was born on: {user.created_at}</h2>
 
 
         </>

@@ -43,10 +43,9 @@ const App = () => {
   const fetchBirthday = async() => {
     const data = await API.get('cryptoapi', '/birthdate');
     setUser(data.data);
-    
   }
 
-  // Call fetchCoins function when the component loads
+  // Call fetchBirthday function when the component loads
   useEffect(() => {
     fetchBirthday()
   }, [])
